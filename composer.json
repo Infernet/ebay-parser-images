@@ -5,9 +5,9 @@
         "php": ">=7.2.0",
         "sunra/php-simple-html-dom-parser": "^1.5"
     },
-    "autoload":{
-        "psr-4":{
-            "Infernet\\EbayParser\\":"src/"
+    "autoload": {
+        "psr-4": {
+            "Infernet\\EbayParser\\": "src/"
         }
-}
+    }
 }
