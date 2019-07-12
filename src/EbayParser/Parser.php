@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace Infernet\Parser;
+namespace Infernet\EbayParser\Parser;
 
 require __DIR__.'/../../vendor/autoload.php';
 

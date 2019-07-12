@@ -1,0 +1,8 @@
+{
+    "name": "infernet/ebay-parser-images",
+    "type": "library",
+    "require": {
+        "php" : "^7.2",
+        "sunra/php-simple-html-dom-parser": "^1.5"
+    }
+}
