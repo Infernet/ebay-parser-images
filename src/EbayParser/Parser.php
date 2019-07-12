@@ -1,9 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace Infernet\EbayParser\Parser;
-
-require __DIR__.'/../../vendor/autoload.php';
+namespace Infernet\EbayParser;
 
 use Sunra\PhpSimple\HtmlDomParser;
 
@@ -21,7 +19,7 @@ final class Parser{
     public function __construct(string $dir,string $url) {
         $this->dirPath=$dir;
         if (!file_exists($this->dirPath)) {
-            mkdir($this->dirPath);
+            mkdir($this->dirPath, true);
         }
         $this->url=$url;
         $this->curl=curl_init();
