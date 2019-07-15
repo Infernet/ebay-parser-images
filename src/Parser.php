@@ -3,9 +3,6 @@ declare(strict_types = 1);
 
 namespace Infernet\EbayParser;
 
-require __DIR__.'/../../../autoload.php';
-
-
 use Sunra\PhpSimple\HtmlDomParser;
 
 final class Parser
